@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+# Preserve supplied source material and upstream licenses exactly.
+prompts/original.txt -text -whitespace
+public/fonts/*-OFL.txt -text -whitespace
+
+*.ttf binary
